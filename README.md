@@ -4,7 +4,7 @@
   2. VMs: virtual machines:
       - Type 1: it runs directly on baremetals, eg. kvm
       - Type 2: it runs on the top of a OS. vm ware, virtualbox
-  3. Container: it is a class or a data structure whos instances are collection of other objects.
+  3. Container: it is a class or a data structure whos instances are collection of other objects, in other words A container is a sandboxed process running on a host machine that is isolated from all other processes running on that host machine. That isolation leverages kernel namespaces and cgroups, features that have been in Linux for a long time. Docker makes these capabilities approachable and easy to use. To summarize, a container:.
       - docker : its an open platform for developing shiping and running applications
       - orchestrator (managed service) : is the automated configuring coordinating and managing of computer system and software.
     
