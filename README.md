@@ -17,7 +17,14 @@
 ## Network:
   1. Load balancer: serves as a single point of contact for clients, or it divert the incoming traffic to many services so that the application runs faster.
        - L7: load balancing allows the load balancer to root a requst based on information in the request itself such as what kind of content is being requested.
+           - Layer 7 refers to the outermost seventh layer of the Open Systems Interconnect (OSI) Model. This highest layer, also known as the application layer, supports end-user applications and processes.
+       - ![](https://avinetworks.wpengine.com/wp-content/uploads/2021/01/layer-7-osi-model-diagram.png?_t=1611372299)
+          
        - L4: Load balancer operate at the transport layer and focus on network layer information like IP address and port numbers.
+           - Layer 4 of the OSI model, also known as the transport layer, manages network traffic between hosts and end systems to ensure complete data transfers. Transport-layer protocols such as TCP, UDP, DCCP, and SCTP are used to control the volume of data, where it is sent, and at what rate.
+            - Network Load Balancer: A Network Load Balancer functions at the fourth layer of the Open Systems Interconnection (OSI) model. It can handle millions of requests per second. After the load balancer                 receives a connection request, it selects a target from the target group for the default rule.
+            - Application Load Balancer: An Application Load Balancer functions at the application layer, the seventh layer of the Open Systems Interconnection (OSI) model.
+         - ![](https://d34smkdb128qfi.cloudfront.net/images/kemptechnologieslibraries/about/picture1.png?sfvrsn=453f0d1f_1)
   2. Proxy and Reverse Proxy: A reverse Proxy is a server that sits in front of one or more web servers, intersepting request from clients. This is different from a forward proxy where the proxy sits in front of       the client.
   3. NAT: stands for netword address translation, its the way to map multiple Private Address inside a local netword to a public ip address before transfering the information onto the internet.
   4. Routing: routing enables us to defingn a URL pattern that maps the request handler.
