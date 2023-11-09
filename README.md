@@ -1,4 +1,5 @@
-# Everything at once
+<h1 align = "center">Everything at once</h1> 
+
 ## computation
   1. Host: host is any hardware device that has capablity of permitting access to a network via a user interface, specialised software, network address, protocol stacks or any other means. eg, baremetals
   2. VMs: virtual machines:
